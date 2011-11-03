@@ -1,3 +1,9 @@
+# revision 23235
+# category TLCore
+# catalog-ctan /macros/latex/contrib/koma-script
+# catalog-date 2011-06-16 16:26:53 +0200
+# catalog-license lppl
+# catalog-version 3.09a
 Name:		texlive-koma-script
 Version:	3.09a
 Release:	1
@@ -249,6 +255,7 @@ the main parts of the bundle.
 %{_texmfdistdir}/tex/latex/koma-script/tocstyle.sty
 %{_texmfdistdir}/tex/latex/koma-script/typearea.sty
 %{_texmfdistdir}/tex/latex/koma-script/visualize.lco
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -259,3 +266,5 @@ the main parts of the bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
