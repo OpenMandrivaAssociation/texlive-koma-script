@@ -16,7 +16,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
 
 %description
 The KOMA-Script bundle provides drop-in replacements for the
@@ -33,20 +32,12 @@ its own version number, the number below is only the version of
 scrbook, scrreprt, scrartcl, scrlttr2 and typearea. These are
 the main parts of the bundle.
 
-%pre
-    %_texmf_mktexlsr_pre
-
 %post
-    %_texmf_mktexlsr_post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
-    fi
+    %{_sbindir}/texlive.post
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -256,7 +247,6 @@ the main parts of the bundle.
 %{_texmfdistdir}/tex/latex/koma-script/tocstyle.sty
 %{_texmfdistdir}/tex/latex/koma-script/typearea.sty
 %{_texmfdistdir}/tex/latex/koma-script/visualize.lco
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -267,5 +257,3 @@ the main parts of the bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
