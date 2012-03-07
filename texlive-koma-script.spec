@@ -1,12 +1,12 @@
-# revision 23235
+# revision 25573
 # category TLCore
 # catalog-ctan /macros/latex/contrib/koma-script
-# catalog-date 2011-06-16 16:26:53 +0200
+# catalog-date 2012-03-06 11:43:21 +0100
 # catalog-license lppl
-# catalog-version 3.09a
+# catalog-version 3.10
 Name:		texlive-koma-script
-Version:	3.09a
-Release:	2
+Version:	3.10
+Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/koma-script
@@ -42,7 +42,6 @@ the main parts of the bundle.
 
 #-----------------------------------------------------------------------
 %files
-# not marked/split as source/doc
 %doc %{_texmfdistdir}/doc/latex/koma-script/INSTALL.txt
 %doc %{_texmfdistdir}/doc/latex/koma-script/INSTALLD.txt
 %doc %{_texmfdistdir}/doc/latex/koma-script/README
@@ -69,6 +68,7 @@ the main parts of the bundle.
 %doc %{_texmfdistdir}/doc/latex/koma-script/scrpage2.html
 %doc %{_texmfdistdir}/doc/latex/koma-script/scrreprt.html
 %doc %{_texmfdistdir}/doc/latex/koma-script/scrtime.html
+%doc %{_texmfdistdir}/doc/latex/koma-script/scrwfile.html
 %doc %{_texmfdistdir}/doc/latex/koma-script/tocbasic.html
 %doc %{_texmfdistdir}/doc/latex/koma-script/tocstyle.pdf
 %doc %{_texmfdistdir}/doc/latex/koma-script/typearea.html
@@ -110,6 +110,7 @@ the main parts of the bundle.
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlfile.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrpage2.tex
+%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrwfile.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/english/tocbasic.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/english/typearea.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/guide.bib
@@ -148,11 +149,13 @@ the main parts of the bundle.
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrbookreportarticle.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrdatetime.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrextend.tex
+%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrhack.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlfile.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2-experts.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2examples.dtx
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrpage2.tex
+%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrwfile.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/settleford600label.lco
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/tocbasic.tex
 %doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea-experts.tex
@@ -203,6 +206,7 @@ the main parts of the bundle.
 %doc %{_texmfdistdir}/source/latex/koma-script/scrstrip.inc
 %doc %{_texmfdistdir}/source/latex/koma-script/scrstrop.inc
 %doc %{_texmfdistdir}/source/latex/koma-script/scrtime.dtx
+%doc %{_texmfdistdir}/source/latex/koma-script/scrwfile.dtx
 %doc %{_texmfdistdir}/source/latex/koma-script/tocbasic.dtx
 %doc %{_texmfdistdir}/source/latex/koma-script/tocstyle.dtx
 %{_texmfdistdir}/tex/latex/koma-script/DIN.lco
@@ -220,6 +224,7 @@ the main parts of the bundle.
 %{_texmfdistdir}/tex/latex/koma-script/UScommercial9.lco
 %{_texmfdistdir}/tex/latex/koma-script/UScommercial9DW.lco
 %{_texmfdistdir}/tex/latex/koma-script/float.hak
+%{_texmfdistdir}/tex/latex/koma-script/floatrow.hak
 %{_texmfdistdir}/tex/latex/koma-script/hyperref.hak
 %{_texmfdistdir}/tex/latex/koma-script/listings.hak
 %{_texmfdistdir}/tex/latex/koma-script/scraddr.sty
@@ -243,6 +248,7 @@ the main parts of the bundle.
 %{_texmfdistdir}/tex/latex/koma-script/scrsize11pt.clo
 %{_texmfdistdir}/tex/latex/koma-script/scrsize12pt.clo
 %{_texmfdistdir}/tex/latex/koma-script/scrtime.sty
+%{_texmfdistdir}/tex/latex/koma-script/scrwfile.sty
 %{_texmfdistdir}/tex/latex/koma-script/tocbasic.sty
 %{_texmfdistdir}/tex/latex/koma-script/tocstyle.sty
 %{_texmfdistdir}/tex/latex/koma-script/typearea.sty
