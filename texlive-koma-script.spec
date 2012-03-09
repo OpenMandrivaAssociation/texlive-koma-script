@@ -1,12 +1,12 @@
-# revision 25573
+# revision 25585
 # category TLCore
 # catalog-ctan /macros/latex/contrib/koma-script
-# catalog-date 2012-03-06 11:43:21 +0100
+# catalog-date 2012-03-08 18:53:08 +0100
 # catalog-license lppl
-# catalog-version 3.10
+# catalog-version 3.10a
 Name:		texlive-koma-script
-Version:	3.10
-Release:	2
+Version:	3.10a
+Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/koma-script
@@ -42,173 +42,173 @@ the main parts of the bundle.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/koma-script/INSTALL.txt
-%doc %{_texmfdistdir}/doc/latex/koma-script/INSTALLD.txt
-%doc %{_texmfdistdir}/doc/latex/koma-script/README
-%doc %{_texmfdistdir}/doc/latex/koma-script/koma-script.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/komabug.tex
-%doc %{_texmfdistdir}/doc/latex/koma-script/komascr.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/komascript.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/lppl-de.txt
-%doc %{_texmfdistdir}/doc/latex/koma-script/lppl.txt
-%doc %{_texmfdistdir}/doc/latex/koma-script/manifest.txt
-%doc %{_texmfdistdir}/doc/latex/koma-script/scraddr.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrartcl.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrbase.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrbook.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrdate.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrguide.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrguide.pdf
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrguien.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrguien.pdf
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrhack.pdf
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrjura.pdf
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrlfile.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrlttr2.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrpage2.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrreprt.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrtime.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/scrwfile.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/tocbasic.html
-%doc %{_texmfdistdir}/doc/latex/koma-script/tocstyle.pdf
-%doc %{_texmfdistdir}/doc/latex/koma-script/typearea.html
-%doc %{_texmfdistdir}/source/latex/koma-script/ChangeLog
-%doc %{_texmfdistdir}/source/latex/koma-script/ChangeLog.2
-%doc %{_texmfdistdir}/source/latex/koma-script/Makefile
-%doc %{_texmfdistdir}/source/latex/koma-script/Makefile.baseinit
-%doc %{_texmfdistdir}/source/latex/koma-script/Makefile.baserules
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/Makefile
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/Makefile.guide
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/Makefile.latexinit
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/bin/genhtmlidx.pl
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/bin/genindex.pl
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/Makefile
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/adrconvnote.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-0.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-1.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-10.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-11.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-12.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-13.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-14.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-15.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-2.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-3.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-4.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-5.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-6.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-7.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-8.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/common-9.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/guide-english.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/htmlsetup
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/introduction.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/japanlco.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scraddr.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrbookreportarticle.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrdatetime.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlfile.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrpage2.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/scrwfile.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/tocbasic.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/english/typearea.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/guide.bib
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/guide.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/Makefile
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/Makefile.guide
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/adrconvnote.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/authorpart.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-0.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-1.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-10.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-11.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-12.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-13.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-14.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-15.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-2.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-3.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-4.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-5.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-6.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-7.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-8.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-9.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/expertpart.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/guide-ngerman.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/guide.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/htmlsetup
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/introduction.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/labelbasic.lco
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/linkalias.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/preface.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scraddr.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrbase.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrbookreportarticle-experts.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrbookreportarticle.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrdatetime.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrextend.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrhack.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlfile.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2-experts.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2examples.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrpage2.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrwfile.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/settleford600label.lco
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/tocbasic.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea-experts.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/plength.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/scrguide.cls
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/scrguide.gst
-%doc %{_texmfdistdir}/source/latex/koma-script/doc/scrguide.ist
-%doc %{_texmfdistdir}/source/latex/koma-script/japanlco.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scraddr.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scraddr.ins
-%doc %{_texmfdistdir}/source/latex/koma-script/scrbeta.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrdoc.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrextend.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrhack.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrjura.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkbase.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkbib.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkcile.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkcomp.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkfloa.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkfont.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkftn.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkidx.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrklang.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrklco.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkliof.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrklist.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkmisc.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrknpap.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkpage.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkpar.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkplen.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrksect.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrktare.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrktitl.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkvars.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrkvers.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrlettr.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrlettr.ins
-%doc %{_texmfdistdir}/source/latex/koma-script/scrlfile.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrlfile.ins
-%doc %{_texmfdistdir}/source/latex/koma-script/scrlogo.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrmain.ins
-%doc %{_texmfdistdir}/source/latex/koma-script/scrpage.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrpage.ins
-%doc %{_texmfdistdir}/source/latex/koma-script/scrsource.tex
-%doc %{_texmfdistdir}/source/latex/koma-script/scrstrip.inc
-%doc %{_texmfdistdir}/source/latex/koma-script/scrstrop.inc
-%doc %{_texmfdistdir}/source/latex/koma-script/scrtime.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/scrwfile.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/tocbasic.dtx
-%doc %{_texmfdistdir}/source/latex/koma-script/tocstyle.dtx
+%{_texmfdistdir}/doc/latex/koma-script/INSTALL.txt
+%{_texmfdistdir}/doc/latex/koma-script/INSTALLD.txt
+%{_texmfdistdir}/doc/latex/koma-script/README
+%{_texmfdistdir}/doc/latex/koma-script/koma-script.html
+%{_texmfdistdir}/doc/latex/koma-script/komabug.tex
+%{_texmfdistdir}/doc/latex/koma-script/komascr.html
+%{_texmfdistdir}/doc/latex/koma-script/komascript.html
+%{_texmfdistdir}/doc/latex/koma-script/lppl-de.txt
+%{_texmfdistdir}/doc/latex/koma-script/lppl.txt
+%{_texmfdistdir}/doc/latex/koma-script/manifest.txt
+%{_texmfdistdir}/doc/latex/koma-script/scraddr.html
+%{_texmfdistdir}/doc/latex/koma-script/scrartcl.html
+%{_texmfdistdir}/doc/latex/koma-script/scrbase.html
+%{_texmfdistdir}/doc/latex/koma-script/scrbook.html
+%{_texmfdistdir}/doc/latex/koma-script/scrdate.html
+%{_texmfdistdir}/doc/latex/koma-script/scrguide.html
+%{_texmfdistdir}/doc/latex/koma-script/scrguide.pdf
+%{_texmfdistdir}/doc/latex/koma-script/scrguien.html
+%{_texmfdistdir}/doc/latex/koma-script/scrguien.pdf
+%{_texmfdistdir}/doc/latex/koma-script/scrhack.pdf
+%{_texmfdistdir}/doc/latex/koma-script/scrjura.pdf
+%{_texmfdistdir}/doc/latex/koma-script/scrlfile.html
+%{_texmfdistdir}/doc/latex/koma-script/scrlttr2.html
+%{_texmfdistdir}/doc/latex/koma-script/scrpage2.html
+%{_texmfdistdir}/doc/latex/koma-script/scrreprt.html
+%{_texmfdistdir}/doc/latex/koma-script/scrtime.html
+%{_texmfdistdir}/doc/latex/koma-script/scrwfile.html
+%{_texmfdistdir}/doc/latex/koma-script/tocbasic.html
+%{_texmfdistdir}/doc/latex/koma-script/tocstyle.pdf
+%{_texmfdistdir}/doc/latex/koma-script/typearea.html
+%{_texmfdistdir}/source/latex/koma-script/ChangeLog
+%{_texmfdistdir}/source/latex/koma-script/ChangeLog.2
+%{_texmfdistdir}/source/latex/koma-script/Makefile
+%{_texmfdistdir}/source/latex/koma-script/Makefile.baseinit
+%{_texmfdistdir}/source/latex/koma-script/Makefile.baserules
+%{_texmfdistdir}/source/latex/koma-script/doc/Makefile
+%{_texmfdistdir}/source/latex/koma-script/doc/Makefile.guide
+%{_texmfdistdir}/source/latex/koma-script/doc/Makefile.latexinit
+%{_texmfdistdir}/source/latex/koma-script/doc/bin/genhtmlidx.pl
+%{_texmfdistdir}/source/latex/koma-script/doc/bin/genindex.pl
+%{_texmfdistdir}/source/latex/koma-script/doc/english/Makefile
+%{_texmfdistdir}/source/latex/koma-script/doc/english/adrconvnote.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-0.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-1.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-10.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-11.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-12.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-13.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-14.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-15.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-3.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-4.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-5.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-6.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-7.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-8.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-9.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/guide-english.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/htmlsetup
+%{_texmfdistdir}/source/latex/koma-script/doc/english/introduction.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/japanlco.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scraddr.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrbookreportarticle.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrdatetime.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlfile.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrpage2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrwfile.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/tocbasic.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/typearea.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/guide.bib
+%{_texmfdistdir}/source/latex/koma-script/doc/guide.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/Makefile
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/Makefile.guide
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/adrconvnote.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/authorpart.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-0.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-1.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-10.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-11.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-12.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-13.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-14.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-15.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-3.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-4.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-5.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-6.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-7.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-8.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-9.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/expertpart.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/guide-ngerman.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/guide.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/htmlsetup
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/introduction.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/labelbasic.lco
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/linkalias.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/preface.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scraddr.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrbase.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrbookreportarticle-experts.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrbookreportarticle.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrdatetime.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrextend.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrhack.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlfile.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2-experts.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2examples.dtx
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrpage2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrwfile.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/settleford600label.lco
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/tocbasic.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea-experts.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/plength.dtx
+%{_texmfdistdir}/source/latex/koma-script/doc/scrguide.cls
+%{_texmfdistdir}/source/latex/koma-script/doc/scrguide.gst
+%{_texmfdistdir}/source/latex/koma-script/doc/scrguide.ist
+%{_texmfdistdir}/source/latex/koma-script/japanlco.dtx
+%{_texmfdistdir}/source/latex/koma-script/scraddr.dtx
+%{_texmfdistdir}/source/latex/koma-script/scraddr.ins
+%{_texmfdistdir}/source/latex/koma-script/scrbeta.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrdoc.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrextend.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrhack.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrjura.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkbase.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkbib.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkcile.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkcomp.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkfloa.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkfont.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkftn.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkidx.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrklang.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrklco.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkliof.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrklist.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkmisc.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrknpap.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkpage.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkpar.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkplen.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrksect.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrktare.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrktitl.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkvars.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkvers.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrlettr.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrlettr.ins
+%{_texmfdistdir}/source/latex/koma-script/scrlfile.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrlfile.ins
+%{_texmfdistdir}/source/latex/koma-script/scrlogo.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrmain.ins
+%{_texmfdistdir}/source/latex/koma-script/scrpage.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrpage.ins
+%{_texmfdistdir}/source/latex/koma-script/scrsource.tex
+%{_texmfdistdir}/source/latex/koma-script/scrstrip.inc
+%{_texmfdistdir}/source/latex/koma-script/scrstrop.inc
+%{_texmfdistdir}/source/latex/koma-script/scrtime.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrwfile.dtx
+%{_texmfdistdir}/source/latex/koma-script/tocbasic.dtx
+%{_texmfdistdir}/source/latex/koma-script/tocstyle.dtx
 %{_texmfdistdir}/tex/latex/koma-script/DIN.lco
 %{_texmfdistdir}/tex/latex/koma-script/DINmtext.lco
 %{_texmfdistdir}/tex/latex/koma-script/KOMAold.lco
