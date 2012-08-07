@@ -1,11 +1,11 @@
-# revision 25585
+# revision 27255
 # category TLCore
 # catalog-ctan /macros/latex/contrib/koma-script
-# catalog-date 2012-03-08 18:53:08 +0100
+# catalog-date 2012-07-30 11:22:32 +0200
 # catalog-license lppl
-# catalog-version 3.10a
+# catalog-version 3.11b
 Name:		texlive-koma-script
-Version:	3.10a
+Version:	3.11b
 Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
@@ -84,6 +84,7 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/bin/genindex.pl
 %{_texmfdistdir}/source/latex/koma-script/doc/english/Makefile
 %{_texmfdistdir}/source/latex/koma-script/doc/english/adrconvnote.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/authorpart.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-0.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-1.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-10.tex
@@ -100,23 +101,34 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-7.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-8.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-9.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/expertpart.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/guide-english.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/guide.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/htmlsetup
 %{_texmfdistdir}/source/latex/koma-script/doc/english/introduction.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/japanlco.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/linkalias.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/preface.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scraddr.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrbase.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrbookreportarticle-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrbookreportarticle.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrdatetime.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrextend.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrhack.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlfile.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2examples.dtx
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrpage2.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrwfile.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/tocbasic.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/typearea-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/typearea.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/guide.bib
 %{_texmfdistdir}/source/latex/koma-script/doc/guide.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/linkalias.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/Makefile
-%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/Makefile.guide
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/adrconvnote.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/authorpart.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-0.tex
@@ -140,7 +152,6 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/guide.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/htmlsetup
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/introduction.tex
-%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/labelbasic.lco
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/linkalias.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/preface.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scraddr.tex
@@ -156,7 +167,6 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2examples.dtx
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrpage2.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrwfile.tex
-%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/settleford600label.lco
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/tocbasic.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea.tex
