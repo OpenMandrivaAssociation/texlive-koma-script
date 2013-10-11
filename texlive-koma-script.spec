@@ -1,11 +1,11 @@
-# revision 25585
+# revision 29774
 # category TLCore
 # catalog-ctan /macros/latex/contrib/koma-script
-# catalog-date 2012-03-08 18:53:08 +0100
+# catalog-date 2013-02-07 17:36:02 +0100
 # catalog-license lppl
-# catalog-version 3.10a
+# catalog-version 3.11b
 Name:		texlive-koma-script
-Version:	3.10a
+Version:	3.11b
 Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
@@ -21,14 +21,15 @@ Requires(post):	texlive-kpathsea
 The KOMA-Script bundle provides drop-in replacements for the
 article/report/book classes with emphasis on typography and
 versatility. There is also a letter class, different from all
-other letter classes. It also offers e.g. a package for
-calculated type areas in the way laid down by the typographer
-Jan Tschichold, a package for easily changing and defining of
-page styles, a package for getting not only the current date
-but also the name of day and a package for getting current
-time. All these packages may be used not only with KOMA-Script
-classes but also with standard classes. Since every package has
-its own version number, the number below is only the version of
+other letter classes. The bundle also offers: - a package for
+calculating type areas in the way laid down by the typographer
+Jan Tschichold, - a package for easily changing and defining
+page styles, - a package scrdate for getting not only the
+current date but also the name of the day, and - a package
+scrtime for getting the current time. All these packages may be
+used not only with KOMA-Script classes but also with the
+standard classes. Since every package has its own version
+number, the version number quoted only refers to the version of
 scrbook, scrreprt, scrartcl, scrlttr2 and typearea. These are
 the main parts of the bundle.
 
@@ -84,6 +85,7 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/bin/genindex.pl
 %{_texmfdistdir}/source/latex/koma-script/doc/english/Makefile
 %{_texmfdistdir}/source/latex/koma-script/doc/english/adrconvnote.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/authorpart.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-0.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-1.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-10.tex
@@ -100,23 +102,34 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-7.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-8.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-9.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/expertpart.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/guide-english.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/guide.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/htmlsetup
 %{_texmfdistdir}/source/latex/koma-script/doc/english/introduction.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/japanlco.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/linkalias.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/preface.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scraddr.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrbase.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrbookreportarticle-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrbookreportarticle.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrdatetime.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrextend.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrhack.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlfile.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2examples.dtx
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrpage2.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrwfile.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/tocbasic.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/typearea-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/typearea.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/guide.bib
 %{_texmfdistdir}/source/latex/koma-script/doc/guide.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/linkalias.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/Makefile
-%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/Makefile.guide
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/adrconvnote.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/authorpart.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-0.tex
@@ -140,7 +153,6 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/guide.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/htmlsetup
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/introduction.tex
-%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/labelbasic.lco
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/linkalias.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/preface.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scraddr.tex
@@ -156,7 +168,6 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2examples.dtx
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrpage2.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrwfile.tex
-%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/settleford600label.lco
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/tocbasic.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/typearea.tex
@@ -263,29 +274,3 @@ the main parts of the bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Mar 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.10a-1
-+ Revision: 783716
-- Update to latest release.
-
-* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 3.10-2
-+ Revision: 783481
-- rebuild without scriptlet dependencies
-
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.10-1
-+ Revision: 783032
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.09a-2
-+ Revision: 753036
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.09a-1
-+ Revision: 718783
-- texlive-koma-script
-- texlive-koma-script
-- texlive-koma-script
-- texlive-koma-script
-
