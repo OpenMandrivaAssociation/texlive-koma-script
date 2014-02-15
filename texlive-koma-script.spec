@@ -1,12 +1,12 @@
-# revision 29774
+# revision 32489
 # category TLCore
 # catalog-ctan /macros/latex/contrib/koma-script
-# catalog-date 2013-02-07 17:36:02 +0100
+# catalog-date 2013-12-26 07:56:41 +0100
 # catalog-license lppl
-# catalog-version 3.11b
+# catalog-version 3.12
 Name:		texlive-koma-script
-Version:	3.11b
-Release:	5
+Version:	3.12
+Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/koma-script
@@ -58,12 +58,17 @@ the main parts of the bundle.
 %{_texmfdistdir}/doc/latex/koma-script/scrbase.html
 %{_texmfdistdir}/doc/latex/koma-script/scrbook.html
 %{_texmfdistdir}/doc/latex/koma-script/scrdate.html
+%{_texmfdistdir}/doc/latex/koma-script/scrextend.html
 %{_texmfdistdir}/doc/latex/koma-script/scrguide.html
 %{_texmfdistdir}/doc/latex/koma-script/scrguide.pdf
 %{_texmfdistdir}/doc/latex/koma-script/scrguien.html
 %{_texmfdistdir}/doc/latex/koma-script/scrguien.pdf
+%{_texmfdistdir}/doc/latex/koma-script/scrhack.html
 %{_texmfdistdir}/doc/latex/koma-script/scrhack.pdf
 %{_texmfdistdir}/doc/latex/koma-script/scrjura.pdf
+%{_texmfdistdir}/doc/latex/koma-script/scrlayer-notecolumn.html
+%{_texmfdistdir}/doc/latex/koma-script/scrlayer-scrpage.html
+%{_texmfdistdir}/doc/latex/koma-script/scrlayer.html
 %{_texmfdistdir}/doc/latex/koma-script/scrlfile.html
 %{_texmfdistdir}/doc/latex/koma-script/scrlttr2.html
 %{_texmfdistdir}/doc/latex/koma-script/scrpage2.html
@@ -95,6 +100,8 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-14.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-15.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-20.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/common-21.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-3.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-4.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/common-5.tex
@@ -117,6 +124,10 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrdatetime.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrextend.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrhack.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlayer-notecolumn.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlayer-scrpage-experts.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlayer-scrpage.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/english/scrlayer.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlfile.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/english/scrlttr2.tex
@@ -141,6 +152,8 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-14.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-15.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-2.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-20.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-21.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-3.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-4.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/common-5.tex
@@ -162,6 +175,11 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrdatetime.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrextend.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrhack.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlayer-notecolumn-example.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlayer-notecolumn.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlayer-scrpage-experts.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlayer-scrpage.tex
+%{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlayer.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlfile.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2-experts.tex
 %{_texmfdistdir}/source/latex/koma-script/doc/ngerman/scrlttr2.tex
@@ -177,42 +195,41 @@ the main parts of the bundle.
 %{_texmfdistdir}/source/latex/koma-script/doc/scrguide.ist
 %{_texmfdistdir}/source/latex/koma-script/japanlco.dtx
 %{_texmfdistdir}/source/latex/koma-script/scraddr.dtx
-%{_texmfdistdir}/source/latex/koma-script/scraddr.ins
 %{_texmfdistdir}/source/latex/koma-script/scrbeta.dtx
 %{_texmfdistdir}/source/latex/koma-script/scrdoc.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrdocstrip.tex
 %{_texmfdistdir}/source/latex/koma-script/scrextend.dtx
 %{_texmfdistdir}/source/latex/koma-script/scrhack.dtx
 %{_texmfdistdir}/source/latex/koma-script/scrjura.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkbase.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkbib.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkcile.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkcomp.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkfloa.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkfont.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkftn.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkidx.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrklang.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrklco.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkliof.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrklist.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkmisc.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrknpap.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkpage.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkpar.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkplen.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrksect.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrktare.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrktitl.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkvars.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrkvers.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrlettr.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrlettr.ins
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-basics.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-bibliography.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-circularletters.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-compatibility.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-floats.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-fonts.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-footnotes.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-index.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-language.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-letterclassoptions.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-listsandtabulars.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-listsof.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-miscellaneous.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-notepaper.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-pagestyles.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-paragraphs.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-pseudolengths.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-sections.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-title.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-typearea.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-variables.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrkernel-version.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrlayer-notecolumn.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrlayer-scrpage.dtx
+%{_texmfdistdir}/source/latex/koma-script/scrlayer.dtx
 %{_texmfdistdir}/source/latex/koma-script/scrlfile.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrlfile.ins
 %{_texmfdistdir}/source/latex/koma-script/scrlogo.dtx
 %{_texmfdistdir}/source/latex/koma-script/scrmain.ins
 %{_texmfdistdir}/source/latex/koma-script/scrpage.dtx
-%{_texmfdistdir}/source/latex/koma-script/scrpage.ins
 %{_texmfdistdir}/source/latex/koma-script/scrsource.tex
 %{_texmfdistdir}/source/latex/koma-script/scrstrip.inc
 %{_texmfdistdir}/source/latex/koma-script/scrstrop.inc
@@ -249,10 +266,11 @@ the main parts of the bundle.
 %{_texmfdistdir}/tex/latex/koma-script/scrhack.sty
 %{_texmfdistdir}/tex/latex/koma-script/scrjura.sty
 %{_texmfdistdir}/tex/latex/koma-script/scrkbase.sty
-%{_texmfdistdir}/tex/latex/koma-script/scrlettr.cls
+%{_texmfdistdir}/tex/latex/koma-script/scrlayer-notecolumn.sty
+%{_texmfdistdir}/tex/latex/koma-script/scrlayer-scrpage.sty
+%{_texmfdistdir}/tex/latex/koma-script/scrlayer.sty
 %{_texmfdistdir}/tex/latex/koma-script/scrlfile.sty
 %{_texmfdistdir}/tex/latex/koma-script/scrlttr2.cls
-%{_texmfdistdir}/tex/latex/koma-script/scrpage.sty
 %{_texmfdistdir}/tex/latex/koma-script/scrpage2.sty
 %{_texmfdistdir}/tex/latex/koma-script/scrreprt.cls
 %{_texmfdistdir}/tex/latex/koma-script/scrsize10pt.clo
