@@ -6,7 +6,7 @@
 # catalog-version 3.12
 Name:		texlive-koma-script
 Version:	3.12
-Release:	4
+Release:	5
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/koma-script
