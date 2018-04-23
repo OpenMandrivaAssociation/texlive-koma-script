@@ -1,5 +1,5 @@
 Name:		texlive-koma-script
-Version:	3.24
+Version:	3.25
 Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
