@@ -1,6 +1,6 @@
 Name:		texlive-koma-script
-Version:	3.25
-Release:	2
+Version:	3.26b
+Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/koma-script
