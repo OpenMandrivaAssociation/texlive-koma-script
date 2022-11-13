@@ -1,11 +1,11 @@
 Name:		texlive-koma-script
-Version:	3.26b
+Version:	64685
 Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/koma-script
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/koma-script.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/koma-script.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +28,12 @@ scrbook, scrreprt, scrartcl, scrlttr2 and typearea. These are
 the main parts of the bundle.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -43,7 +43,7 @@ the main parts of the bundle.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
