@@ -3,7 +3,7 @@ Version:	69755
 Release:	1
 Summary:	A bundle of versatile classes and packages
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/koma-script
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/koma-script
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/koma-script.r%{version}.tar.xz
 BuildArch:	noarch
